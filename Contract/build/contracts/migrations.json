@@ -1,0 +1,73 @@
+{
+  "contractName": "migrations",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "new_address",
+          "type": "address"
+        }
+      ],
+      "name": "upgrade",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "last_completed_migration",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "completed",
+          "type": "uint256"
+        }
+      ],
+      "name": "setCompleted",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x60606040525b33600060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908302179055505b6102688061003f6000396000f360606040526000357c0100000000000000000000000000000000000000000000000000000000900480630900f0101461005d578063445df0ac1461007a5780638da5cb5b146100a2578063fdacd576146100e057610058565b610002565b346100025761007860048080359060200190919050506100fd565b005b346100025761008c60048050506101d3565b6040518082815260200191505060405180910390f35b34610002576100b460048050506101dc565b604051808273ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34610002576100fb6004808035906020019091905050610202565b005b6000600060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156101ce578190508073ffffffffffffffffffffffffffffffffffffffff1663fdacd576600160005054604051827c010000000000000000000000000000000000000000000000000000000002815260040180828152602001915050600060405180830381600087803b156100025760325a03f115610002575050505b5b5b5050565b60016000505481565b600060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561026457806001600050819055505b5b5b5056",
+  "deployedBytecode": "0x60606040526000357c0100000000000000000000000000000000000000000000000000000000900480630900f0101461005d578063445df0ac1461007a5780638da5cb5b146100a2578063fdacd576146100e057610058565b610002565b346100025761007860048080359060200190919050506100fd565b005b346100025761008c60048050506101d3565b6040518082815260200191505060405180910390f35b34610002576100b460048050506101dc565b604051808273ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34610002576100fb6004808035906020019091905050610202565b005b6000600060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156101ce578190508073ffffffffffffffffffffffffffffffffffffffff1663fdacd576600160005054604051827c010000000000000000000000000000000000000000000000000000000002815260040180828152602001915050600060405180830381600087803b156100025760325a03f115610002575050505b5b5b5050565b60016000505481565b600060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561026457806001600050819055505b5b5b5056",
+  "sourceMap": "62:548:1:-;;;236:66;284:10;276:5;;:18;;;;;;;;;;;;;;;;236:66;62:548;;;;;;",
+  "deployedSourceMap": "62:548:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;429:178;;;;;;;;;;;;;;;;;;;;;116:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;89:20;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;310:111;;;;;;;;;;;;;;;;;;;;;429:178;496:19;212:5;;;;;;;;;;;198:19;;:10;:19;;;194:26;;;529:11;496:45;;552:8;:21;;;574:24;;;;552:47;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;219:1;194:26;429:178;;;:::o;116:36::-;;;;;;:::o;89:20::-;;;;;;;;;;;;;:::o;310:111::-;212:5;;;;;;;;;;;198:19;;:10;:19;;;194:26;;;404:9;377:24;;:36;;;;;219:1;194:26;310:111;;:::o",
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.0+commit.acd334c9.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.13",
+  "updatedAt": "2023-05-06T21:20:27.250Z",
+  "networkType": "ethereum"
+}
