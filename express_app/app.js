@@ -20,7 +20,7 @@ const address=require("./user_contract").address2;
 const CurrentRide=require("./models/Auction");
 
 
-mongoose.connect('mongodb+srv://asaprov:Bharath%40123@cluster0.hjsqp4v.mongodb.net/test', {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('mongodb+srv://{mongodb-cluster}', {useNewUrlParser: true, useUnifiedTopology: true})
     .then(() => console.log('MongoDB Connected'))
     .catch(err => console.log(err));
 
